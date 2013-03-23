@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFOpenFlowView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AFOpenFlowViewDelegate, AFOpenFlowViewDataSource>
+
+@property (nonatomic, strong) AFOpenFlowView    *flowView;
+@property (nonatomic, assign) NSInteger         selectionIndex;
 
 @end

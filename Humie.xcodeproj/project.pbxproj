@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20337AC716FD923C001980A2 /* HumieTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 203F3B3B16FD81AE00F341D1 /* HumieTarget.m */; };
+		20337AC816FD9240001980A2 /* HumieTargetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 203F3B3E16FD821900F341D1 /* HumieTargetList.m */; };
+		203F3B4116FD830200F341D1 /* HumieDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203F3B4016FD830200F341D1 /* HumieDefault.plist */; };
+		207E0EC316FD779C007E48FB /* yooo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 207E0EC216FD779C007E48FB /* yooo.wav */; };
+		207E0EC716FD7E89007E48FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207E0EC616FD7E88007E48FB /* AVFoundation.framework */; };
 		D9A1E03816FD63CB002D7B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A1E03716FD63CB002D7B2C /* UIKit.framework */; };
 		D9A1E03A16FD63CB002D7B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A1E03916FD63CB002D7B2C /* Foundation.framework */; };
 		D9A1E03C16FD63CB002D7B2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A1E03B16FD63CB002D7B2C /* CoreGraphics.framework */; };
@@ -23,6 +28,12 @@
 		D9A1E05E16FD63CC002D7B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A1E03916FD63CB002D7B2C /* Foundation.framework */; };
 		D9A1E06616FD63CC002D7B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9A1E06416FD63CC002D7B2C /* InfoPlist.strings */; };
 		D9A1E06916FD63CC002D7B2C /* HumieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A1E06816FD63CC002D7B2C /* HumieTests.m */; };
+		D9A1E07A16FD6482002D7B2C /* AFItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A1E07416FD6482002D7B2C /* AFItemView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9A1E07B16FD6482002D7B2C /* AFOpenFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A1E07716FD6482002D7B2C /* AFOpenFlowView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9A1E07C16FD6482002D7B2C /* AFUIImageReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A1E07916FD6482002D7B2C /* AFUIImageReflection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9A1E08D16FD65A0002D7B2C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A1E08C16FD65A0002D7B2C /* QuartzCore.framework */; };
+		D9A1E09016FD6709002D7B2C /* jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9A1E08F16FD6709002D7B2C /* jobs.jpg */; };
+		D9A1E09316FD69EA002D7B2C /* HumieActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A1E09216FD69EA002D7B2C /* HumieActionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203F3B3A16FD81AE00F341D1 /* HumieTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumieTarget.h; sourceTree = "<group>"; };
+		203F3B3B16FD81AE00F341D1 /* HumieTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumieTarget.m; sourceTree = "<group>"; };
+		203F3B3D16FD821900F341D1 /* HumieTargetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumieTargetList.h; sourceTree = "<group>"; };
+		203F3B3E16FD821900F341D1 /* HumieTargetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumieTargetList.m; sourceTree = "<group>"; };
+		203F3B4016FD830200F341D1 /* HumieDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HumieDefault.plist; sourceTree = "<group>"; };
+		207E0EC216FD779C007E48FB /* yooo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yooo.wav; sourceTree = "<group>"; };
+		207E0EC416FD77AE007E48FB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		207E0EC616FD7E88007E48FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D9A1E03316FD63CB002D7B2C /* Humie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A1E03716FD63CB002D7B2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9A1E03916FD63CB002D7B2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +77,17 @@
 		D9A1E06516FD63CC002D7B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9A1E06716FD63CC002D7B2C /* HumieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumieTests.h; sourceTree = "<group>"; };
 		D9A1E06816FD63CC002D7B2C /* HumieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumieTests.m; sourceTree = "<group>"; };
+		D9A1E07316FD6482002D7B2C /* AFItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFItemView.h; sourceTree = "<group>"; };
+		D9A1E07416FD6482002D7B2C /* AFItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFItemView.m; sourceTree = "<group>"; };
+		D9A1E07516FD6482002D7B2C /* AFOpenFlowConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowConstants.h; sourceTree = "<group>"; };
+		D9A1E07616FD6482002D7B2C /* AFOpenFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowView.h; sourceTree = "<group>"; };
+		D9A1E07716FD6482002D7B2C /* AFOpenFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOpenFlowView.m; sourceTree = "<group>"; };
+		D9A1E07816FD6482002D7B2C /* AFUIImageReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUIImageReflection.h; sourceTree = "<group>"; };
+		D9A1E07916FD6482002D7B2C /* AFUIImageReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIImageReflection.m; sourceTree = "<group>"; };
+		D9A1E08C16FD65A0002D7B2C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9A1E08F16FD6709002D7B2C /* jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jobs.jpg; sourceTree = "<group>"; };
+		D9A1E09116FD69E9002D7B2C /* HumieActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumieActionViewController.h; sourceTree = "<group>"; };
+		D9A1E09216FD69EA002D7B2C /* HumieActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumieActionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207E0EC716FD7E89007E48FB /* AVFoundation.framework in Frameworks */,
+				D9A1E08D16FD65A0002D7B2C /* QuartzCore.framework in Frameworks */,
 				D9A1E03816FD63CB002D7B2C /* UIKit.framework in Frameworks */,
 				D9A1E03A16FD63CB002D7B2C /* Foundation.framework in Frameworks */,
 				D9A1E03C16FD63CB002D7B2C /* CoreGraphics.framework in Frameworks */,
@@ -84,9 +116,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203F3B3916FD819400F341D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				203F3B3A16FD81AE00F341D1 /* HumieTarget.h */,
+				203F3B3B16FD81AE00F341D1 /* HumieTarget.m */,
+				203F3B3D16FD821900F341D1 /* HumieTargetList.h */,
+				203F3B3E16FD821900F341D1 /* HumieTargetList.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		207E0EC116FD778A007E48FB /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				207E0EC216FD779C007E48FB /* yooo.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 		D9A1E02816FD63CA002D7B2C = {
 			isa = PBXGroup;
 			children = (
+				207E0EC616FD7E88007E48FB /* AVFoundation.framework */,
+				207E0EC416FD77AE007E48FB /* AudioToolbox.framework */,
+				D9A1E08C16FD65A0002D7B2C /* QuartzCore.framework */,
 				D9A1E03D16FD63CB002D7B2C /* Humie */,
 				D9A1E06116FD63CC002D7B2C /* HumieTests */,
 				D9A1E03616FD63CB002D7B2C /* Frameworks */,
@@ -117,11 +171,15 @@
 		D9A1E03D16FD63CB002D7B2C /* Humie */ = {
 			isa = PBXGroup;
 			children = (
+				203F3B3916FD819400F341D1 /* Model */,
+				D9A1E07216FD6482002D7B2C /* OpenFlow */,
 				D9A1E04616FD63CB002D7B2C /* AppDelegate.h */,
 				D9A1E04716FD63CB002D7B2C /* AppDelegate.m */,
 				D9A1E04F16FD63CB002D7B2C /* ViewController.h */,
 				D9A1E05016FD63CB002D7B2C /* ViewController.m */,
 				D9A1E05216FD63CB002D7B2C /* ViewController.xib */,
+				D9A1E09116FD69E9002D7B2C /* HumieActionViewController.h */,
+				D9A1E09216FD69EA002D7B2C /* HumieActionViewController.m */,
 				D9A1E03E16FD63CB002D7B2C /* Supporting Files */,
 			);
 			path = Humie;
@@ -130,7 +188,10 @@
 		D9A1E03E16FD63CB002D7B2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				207E0EC116FD778A007E48FB /* sounds */,
+				D9A1E08E16FD6702002D7B2C /* images */,
 				D9A1E03F16FD63CB002D7B2C /* Humie-Info.plist */,
+				203F3B4016FD830200F341D1 /* HumieDefault.plist */,
 				D9A1E04016FD63CB002D7B2C /* InfoPlist.strings */,
 				D9A1E04316FD63CB002D7B2C /* main.m */,
 				D9A1E04516FD63CB002D7B2C /* Humie-Prefix.pch */,
@@ -158,6 +219,28 @@
 				D9A1E06416FD63CC002D7B2C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9A1E07216FD6482002D7B2C /* OpenFlow */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1E07316FD6482002D7B2C /* AFItemView.h */,
+				D9A1E07416FD6482002D7B2C /* AFItemView.m */,
+				D9A1E07516FD6482002D7B2C /* AFOpenFlowConstants.h */,
+				D9A1E07616FD6482002D7B2C /* AFOpenFlowView.h */,
+				D9A1E07716FD6482002D7B2C /* AFOpenFlowView.m */,
+				D9A1E07816FD6482002D7B2C /* AFUIImageReflection.h */,
+				D9A1E07916FD6482002D7B2C /* AFUIImageReflection.m */,
+			);
+			path = OpenFlow;
+			sourceTree = "<group>";
+		};
+		D9A1E08E16FD6702002D7B2C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1E08F16FD6709002D7B2C /* jobs.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +319,9 @@
 				D9A1E04C16FD63CB002D7B2C /* Default@2x.png in Resources */,
 				D9A1E04E16FD63CB002D7B2C /* Default-568h@2x.png in Resources */,
 				D9A1E05416FD63CB002D7B2C /* ViewController.xib in Resources */,
+				D9A1E09016FD6709002D7B2C /* jobs.jpg in Resources */,
+				207E0EC316FD779C007E48FB /* yooo.wav in Resources */,
+				203F3B4116FD830200F341D1 /* HumieDefault.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20337AC816FD9240001980A2 /* HumieTargetList.m in Sources */,
+				20337AC716FD923C001980A2 /* HumieTarget.m in Sources */,
 				D9A1E04416FD63CB002D7B2C /* main.m in Sources */,
 				D9A1E04816FD63CB002D7B2C /* AppDelegate.m in Sources */,
 				D9A1E05116FD63CB002D7B2C /* ViewController.m in Sources */,
+				D9A1E07A16FD6482002D7B2C /* AFItemView.m in Sources */,
+				D9A1E07B16FD6482002D7B2C /* AFOpenFlowView.m in Sources */,
+				D9A1E07C16FD6482002D7B2C /* AFUIImageReflection.m in Sources */,
+				D9A1E09316FD69EA002D7B2C /* HumieActionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +423,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -346,6 +439,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "549B1492-D863-476A-8347-23E0C4FDDD90";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "549B1492-D863-476A-8347-23E0C4FDDD90";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -359,7 +454,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -367,6 +463,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "549B1492-D863-476A-8347-23E0C4FDDD90";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "549B1492-D863-476A-8347-23E0C4FDDD90";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -375,10 +473,14 @@
 		D9A1E06D16FD63CD002D7B2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Humie/Humie-Prefix.pch";
 				INFOPLIST_FILE = "Humie/Humie-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D16E7AA9-96ED-402B-83F4-39E0AB6F4078";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D16E7AA9-96ED-402B-83F4-39E0AB6F4078";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -386,10 +488,14 @@
 		D9A1E06E16FD63CD002D7B2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Humie/Humie-Prefix.pch";
 				INFOPLIST_FILE = "Humie/Humie-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D16E7AA9-96ED-402B-83F4-39E0AB6F4078";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D16E7AA9-96ED-402B-83F4-39E0AB6F4078";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +553,7 @@
 				D9A1E06E16FD63CD002D7B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A1E06F16FD63CD002D7B2C /* Build configuration list for PBXNativeTarget "HumieTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +562,7 @@
 				D9A1E07116FD63CD002D7B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

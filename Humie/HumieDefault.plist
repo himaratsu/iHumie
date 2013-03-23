@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Steven Jobs</string>
+		<key>fileName</key>
+		<string>jobs.jpg</string>
+		<key>judge</key>
+		<string>Apple信者</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>キリスト</string>
+		<key>fileName</key>
+		<string>kirisuto.jpg</string>
+		<key>judge</key>
+		<string>キリシタン</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>嵐</string>
+		<key>fileName</key>
+		<string>arashi.jpg</string>
+		<key>judge</key>
+		<string>嵐ファン</string>
+	</dict>
+</array>
+</plist>
